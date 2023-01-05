@@ -1,0 +1,11 @@
+.retrygame h1 {
+  color: white;
+}
+.retrygame button {
+  background-color: #fb2525;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 0.9rem;
+  color: white;
+  border-radius: 0.5rem;
+  border: none;
+}
