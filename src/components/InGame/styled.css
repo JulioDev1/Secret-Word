@@ -1,11 +1,53 @@
 .gamescreen h1 {
   color: white;
 }
+.tip {
+  color: #fb2576;
+}
+.letterContainer p {
+  color: white;
+}
 .gamescreen button {
   background-color: #fb2525;
   font-family: "Titillium Web", sans-serif;
   font-size: 0.9rem;
   color: white;
+  width: 70px;
   border-radius: 0.5rem;
   border: none;
+}
+.letterContainer input {
+  width: 30px;
+  height: 30px;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #495057;
+}
+
+.letterContainer {
+  display: flex;
+  flex-direction: column;
+}
+.insert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px 20px;
+}
+.points {
+  color: white;
+  padding-top: 10px;
+}
+.wordContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.letter,
+.blanksquare {
+  font-size: 30px;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  background-color: white;
 }

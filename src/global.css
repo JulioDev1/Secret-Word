@@ -3,6 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Titillium Web", sans-serif;
+  align-content: center;
 }
 html,
 body {
